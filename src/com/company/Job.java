@@ -22,7 +22,7 @@ public class Job {
         Collections.sort(list, new Comparator<Employer>() {
             @Override
             public int compare(Employer o1, Employer o2) {
-                return (int) o1.getSalaryPerMonth();
+                return o1.getSalaryPerMonth().compareTo(o2.getSalaryPerMonth());
             }
         });
         for (int i = 0; i < list.size(); i++) {

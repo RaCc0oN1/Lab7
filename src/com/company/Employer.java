@@ -17,7 +17,7 @@ public class Employer {
         this.salaryPerMonth = salaryFromMethod;
     }
 
-    double getSalaryPerMonth(){
+    Double getSalaryPerMonth(){
         return salaryPerMonth;
     }
 }
